@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/regtst_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号："
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/my_regist_edit_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号或邮箱"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码："
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/my_regist_edit_passwod"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认密码："
+        android:padding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/my_regist_edit_passwod2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:inputType="numberPassword"
+
+        />
+
+    <Button
+        android:onClick="regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交信息"
+        />
+
+</LinearLayout>

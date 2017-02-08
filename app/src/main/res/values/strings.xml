@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HttpDemo</string>
+    <string name="title_activity_text_animation">TextAnimationActivity</string>
+</resources>

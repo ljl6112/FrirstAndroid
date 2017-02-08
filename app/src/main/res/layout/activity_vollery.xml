@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="ljl.com.httpdemo.MainActivity">
+
+
+    <Button
+
+        android:onClick="getTb"
+
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="OKHttp GET同步" />
+    <Button
+        android:onClick="getYb"
+
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="OKHttp GET异步"
+        />
+    <Button
+        android:onClick="post"
+
+
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Okhttp POST 提交表单"
+
+        />
+    <Button
+        android:onClick="down"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Okhttp 文件下载"
+
+        />
+    <Button
+        android:onClick="test"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="这是什么鬼按钮"
+
+        />
+    <ImageView
+        android:id="@+id/iamge_down_okhttp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+        android:id="@+id/text_okhttp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="进度显示"/>
+
+</LinearLayout>
